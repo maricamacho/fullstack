@@ -1,0 +1,13 @@
+<?php
+
+/*
+ * Class to represent politicians 
+ */
+
+namespace BackendBundle\Document;
+
+
+class Politician {
+
+ 
+}

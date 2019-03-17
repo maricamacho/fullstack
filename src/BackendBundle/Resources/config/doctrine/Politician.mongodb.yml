@@ -1,0 +1,40 @@
+## metadatos de la clase Politician
+
+BackendBundle\Document\Politician:
+    db: dbfullstack
+    collection: politicians
+    fields:
+        id:
+            id: true
+        TITULAR:
+            type: string
+        PARTIDO:
+            type: string
+        PARTIDO_PARA_FILTRO:
+            type: string
+        GENERO:
+            type: string
+        CARGO_PARA_FILTRO:
+            type: string
+        CARGO:
+            type: string
+        INSTITUCION:
+            type: string
+        CCAA:
+            type: string
+        SUELDOBASE_SUELDO:
+            type: float
+        COMPLEMENTOS_SUELDO:
+            type: float
+        PAGASEXTRA_SUELDO:
+            type: float
+        OTRASDIETASEINDEMNIZACIONES_SUELDO:
+            type: float
+        TRIENIOS_SUELDO:
+            type: float
+        RETRIBUCIONMENSUAL:
+            type: float
+        RETRIBUCIONANUAL:
+            type: float
+        OBSERVACIONES:
+            type: string

@@ -1,0 +1,32 @@
+#Rutas diferentes acciones del controlador Politicians
+
+#IndexAction
+politician_index:
+    path: /
+    defaults: { _controller: "AppBundle:Politician:index" }
+    methods: GET
+
+#DetailAction
+politician_detail:
+    path: /detail/{id}
+    defaults: { _controller: "AppBundle:Politician:detail", id:null }
+    methods: GET
+ 
+#UpdateAction        
+politician_update:
+    path: /update/{id}
+    defaults: { _controller: "AppBundle:Politician:update", id:null }
+    methods: PUT
+
+#CreateAction
+politician_create:
+    path: /create
+    defaults: { _controller: "AppBundle:Politician:create" }
+    methods: POST
+    
+    
+#CreateAction
+politician_test:
+    path: /test
+    defaults: { _controller: "AppBundle:Politician:test" }
+    methods: POST

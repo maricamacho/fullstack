@@ -1,0 +1,34 @@
+<?php
+
+/*
+ * Class to represent politicians 
+ */
+
+namespace BackendBundle\Document;
+
+
+class politicians {
+    
+    
+    protected $id;
+    protected $TITULAR;
+    protected $PARTIDO;
+    protected $PARTIDO_PARA_FILTRO;
+    protected $GENERO;
+    protected $CARGO_PARA_FILTRO;
+    protected $CARGO;
+    protected $INSTITUCION;
+    protected $CCAA;
+    protected $SUELDOBASE_SUELDO;
+    protected $COMPLEMENTOS_SUELDO;
+    protected $PAGAEXTRA_SUELDO;
+    protected $OTRASDIETASEINDEMNIZACIONES_SUELDO;
+    protected $RETRIBUCIONMENSUAL;
+    protected $RETRIBUCIONANUAL;
+    protected $OBSERVACIONES;
+    protected $TRIENIOS_SUELDO;
+
+
+
+  
+}

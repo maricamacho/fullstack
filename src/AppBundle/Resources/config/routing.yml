@@ -1,0 +1,6 @@
+#Ficheros rutas controladores de AppBundle
+
+#PoliticianController
+app_politician:
+    resource: "@AppBundle/Resources/config/routing/politician.yml"
+    prefix: /

@@ -1,0 +1,5 @@
+#Fichero configuración rutas
+#AppBundle
+app:
+    resource: '@AppBundle/Resources/config/routing.yml'
+    prefix: /
